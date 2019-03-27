@@ -31,19 +31,21 @@
 	margin: 0;
 	padding: 0;
 }
+
+.menu li a, h1{
+	color: #1695A3;
+	font-family: GTWalsheimProBold;
+	font-size: 30px;
+
+}
 .menu li{
 		display:inline;
 }
 
-.menu li a{
-	color: #1695A3;
-	font-family: GTWalsheimProBold;
-	font-size: 30px;
-}
-
-.fa-user{
+.fa-user, .fa-search{
 	color:#EB7F00;
 }
+
 /*FOOTER*/
 
 
