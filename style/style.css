@@ -51,6 +51,19 @@
 
 /*HOME*/
 
+.vacatureHome{
+	display: block;
+	float:left;
+	position: relative;
+	width:234px;
+	height:440px;
+	border-style: solid;
+	border-color:  #000000;
+	margin-left:160px;
+}
+.leesMeer{
+	float:right;
+}
 .test{
 	background-color:red;
 }
