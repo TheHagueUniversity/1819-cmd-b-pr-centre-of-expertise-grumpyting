@@ -47,7 +47,15 @@
 }
 
 /*FOOTER*/
+footer{
+	background-color:#225378;
+	color:white;
+}
 
+footer div{
+
+	margin-left:50px;
+}
 
 /*HOME*/
 
@@ -61,6 +69,18 @@
 	border-color:  #000000;
 	margin-left:160px;
 }
+
+.eventHome{
+	display: block;
+	float:left;
+	position: relative;
+	width:480px;
+	height:200px;
+	border-style: solid;
+	border-color:  #000000;
+	margin-left:160px;
+}
+
 .leesMeer{
 	float:right;
 }
