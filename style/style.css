@@ -23,6 +23,8 @@
 
 .search{
 	float:right;
+	position: relative;
+	bottom:180px; /*niet juiste manier?*/
 }
 
 .menu{
@@ -49,14 +51,18 @@
 /*FOOTER*/
 footer{
 	background-color:#225378;
+	margin-top: 30px;
 	color:white;
 }
 
 footer div{
-
+	display:inline-block;
+	position: relative;
 	margin-left:50px;
 }
 
+#footerLogo{
+}
 /*HOME*/
 
 .vacatureHome{
@@ -70,16 +76,26 @@ footer div{
 	margin-left:160px;
 }
 
-.eventHome{
-	display: block;
-	float:left;
-	position: relative;
-	width:480px;
-	height:200px;
-	border-style: solid;
-	border-color:  #000000;
-	margin-left:160px;
+.eventBox{
+	margin-bottom: 50px;
+	height: 400px;
+
 }
+
+.eventHome{
+	display: inline;
+	float: left;
+}
+
+
+#clear{
+	clear: both;
+}
+
+h1{
+	margin: auto;
+}
+
 
 .leesMeer{
 	float:right;
