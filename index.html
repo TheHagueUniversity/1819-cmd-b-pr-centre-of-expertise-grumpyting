@@ -7,14 +7,16 @@
 			<meta charset="utf-8"/>
 		</head>
 		<body>
-			<heading class="col-12"><!-- REVIEW: heading?? -->
-					<img class="col-3" src="images/logo.png" alt="logo centre of expertise"> <!-- REVIEW: escape hatch? figure tag mist -->
-						  <form class="col-3 search" action="vacatures.html">
+			<header class="col-12">
+					<figure>
+					
+						<img class="col-3" src="images/logo.png" alt="logo centre of expertise" href="index.html"></figure>
+						  <form class="search" method="post" action="vacatures.html">
 							  <input type="text" placeholder="Search.." name="search">
 							  <button type="submit"><i class="fa fa-search"></i></button>
 								<!-- REVIEW: bij een formulier moet je input type="submit" gebruiken ipv een button -->
 						  </form>
-			</heading>
+			</header>
 				<nav class="col-12">
 
 					<ul class="menu">
@@ -28,35 +30,36 @@
 
 				</nav>
 			<main>
-				<img class="col-12" src="images/action-adult-affection-1200 400.jpg" alt="banner"/>	<!-- REVIEW: figure? -->
+				<figure>
+				<img class="col-12" src="images/action-adult-affection-1200 400.jpg" alt="banner"/>
+				</figure>
 
 			<h1 class="col-2">Vacatures</h1>
-			<div class="VacaturesBox"><!-- REVIEW: waarom geen section? -->
-
+			<section class="VacaturesBox">
 			<article class="col-4 vacatureHome">
-				<img src="images/radiolabArtikel.jpg" alt="radiolab vacature"><!-- REVIEW: figure? -->
+				<img src="images/radiolabArtikel.jpg" alt="radiolab vacature">
 				<h2>Lab Engineer</h2>
 				<p>Heb jij analytische vaardigheden en een praktische instelling en ben je op zoek naar een zelfstandige uitdagende stage </p>
-				<a class="leesMeer" href="...">Lees meer</a>
+				<a class="leesMeer" href="hier linken naar vacature">Lees meer</a>
 			</article>
 
 			<article class="col-4 vacatureHome">
 				<img src="images/radiolabArtikel.jpg" alt="radiolab vacature">
 				<h2>Lab Engineer</h2>
 				<p>Heb jij analytische vaardigheden en een praktische instelling en ben je op zoek naar een zelfstandige uitdagende stage </p>
-				<a class="leesMeer" href="...">Lees meer</a>
+				<a class="leesMeer" href="#">Lees meer</a>
 			</article>
 
 			<article class="col-4 vacatureHome">
 				<img src="images/radiolabArtikel.jpg" alt="radiolab vacature">
 				<h2>Lab Engineer</h2>
 				<p>Heb jij analytische vaardigheden en een praktische instelling en ben je op zoek naar een zelfstandige uitdagende stage </p>
-				<a class="leesMeer" href="...">Lees meer</a>
+				<a class="leesMeer" href="#">Lees meer</a>
 			</article>
-			</div>
-
+			</section>
+			
 			<h1 class="col-2">Evenementen</h1>
-			<div class="eventsBox">
+			<section class="eventsBox">
 
 			<article class="col-4 eventHome">
 				<img src="images/hhs_logo_artikel.png" alt="radiolab vacature">
@@ -78,19 +81,21 @@
 				<p>Heb jij analytische vaardigheden en een praktische instelling en ben je op zoek naar een zelfstandige uitdagende stage </p>
 				<a class="leesMeer" href="...">Lees meer</a>
 			</article>
-			</div>
-			<div id="clear"></div><!-- REVIEW: is deze echt nodig? -->
+			</section>
+			<div id="clear"></div><!-- REVIEW: is deze echt nodig? footer doet raar, zoek andere manier-->
 			</main>
-
+	
+			
+			<aside id="label">Centre of Expertise</aside>		
 			<footer class="col-12">
-			<div class="col-3"><!-- REVIEW: section -->
+			<div class="col-3 sitemap">
 			<h3>Sitemap</h3>
 				<ul>
-					<li>HOME</li><!-- REVIEW: links, verwijs ze desnoods naar # -->
-					<li>Vacatures</li>
-					<li>Info</li>
-					<li>Contact</li>
-					<li>Login</li>
+					<li><a href="index.html">home</a></li>
+					<li><a href="vacatures.html">vacatures</a></li>
+					<li><a href="info.html">info</a></li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="login.html">login</a></li>
 
 				</ul>
 			</div>

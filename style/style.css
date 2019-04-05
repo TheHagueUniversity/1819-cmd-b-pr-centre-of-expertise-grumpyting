@@ -19,18 +19,35 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.leesMeer{
+	float:right;
+	background-color: ;
+	color: ;
+	
+}
+
+
 /*HEADER*/
 
 .search{
 	float:right;
 	position: relative;
-	bottom:180px; /*niet juiste manier?*/
+	bottom:140px; /*niet juiste manier?*/
+	right: 130px;
+	border-radius: 4px;
+	border-style: solid;
+	border-color:#CCCCCC;
+}
+
+.search input{
+	height: 40px;
+	width: 360px;
 }
 
 .menu{
 	list-style-type: none;
 	float:right;
-	margin: 0;
+
 	padding: 0;
 }
 
@@ -42,6 +59,14 @@
 }
 .menu li{
 		display:inline;
+		padding-right: 20px;
+}
+
+.menu li a:hover{
+	background-color: #1695A3;
+	color: #ffffff;
+	text-decoration: underline;
+	padding: 10px;
 }
 
 .fa-user, .fa-search{
@@ -53,12 +78,18 @@ footer{
 	background-color:#225378;
 	margin-top: 30px;
 	color:white;
+
 }
 
 footer div{
 	display:inline-block;
 	position: relative;
 	margin-left:50px;
+}
+
+.sitemap li{
+	text-transform: uppercase;
+	list-style-type: none;
 }
 
 #footerLogo{
@@ -88,6 +119,7 @@ footer div{
 }
 
 
+
 #clear{
 	clear: both;
 }
@@ -97,10 +129,22 @@ h1{
 	padding:45px 0px 15px 0px;
 }
 
-
-.leesMeer{
-	float:right;
+#label{
+	position: fixed;
+	background-color:#1695A3;
+	color:#FFFFFF;
+	text-align: center;
+	font-size:20px;
+	width:32px;
+	top: 350px;
+	right:0;
+	z-index: 1;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
+
+
+
 .test{
 	background-color:red;
 }
